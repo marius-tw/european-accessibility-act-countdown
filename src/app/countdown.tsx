@@ -30,9 +30,9 @@ function Countdown() {
   }
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <h1>Countdown until European Accessibility Act 2025</h1>
-      <div>
+      <div className="w-[200px] m-9">
         <p>{timeRemaining.days} days</p>
         <p>{timeRemaining.hours} hours</p>
         <p>{timeRemaining.minutes} minutes</p>
