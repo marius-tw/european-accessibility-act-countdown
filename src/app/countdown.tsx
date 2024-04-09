@@ -13,7 +13,7 @@ function Countdown() {
   }, []);
 
   function calculateTimeRemaining() {
-    const targetDate = new Date('2025-01-01T00:00:00Z').getTime();
+    const targetDate = new Date('2025-06-28T00:00:00Z').getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
