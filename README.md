@@ -1,0 +1,1 @@
+- use available resources that are being referenced in the countdowner, every day another tip or hint with a link
