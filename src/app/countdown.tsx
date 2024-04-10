@@ -31,7 +31,7 @@ function Countdown() {
 
   return (
     <div className="flex flex-col items-center">
-      <h1>Countdown until European Accessibility Act 2025</h1>
+      <h1>days left to fix our accessibility issues and inclusion gaps</h1>
       <div className="w-[200px] m-9">
         <p>{timeRemaining.days} days</p>
         <p>{timeRemaining.hours} hours</p>
