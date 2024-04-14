@@ -38,6 +38,7 @@ function Countdown() {
         <p>{timeRemaining.minutes} minutes</p>
         <p>{timeRemaining.seconds} seconds</p>
       </div>
+      <h2>You would like to have more information? <a href={"https://ec.europa.eu/social/main.jsp?catId=1202"}>maybe here</a></h2>
     </div>
   );
 }
