@@ -22,8 +22,8 @@ body {
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  )
+  rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -32,6 +32,7 @@ body {
   }
 }
 
-h1, p {
+h1, h2, p {
+  opacity: 0.1;
   font-size: 2rem
 }
